@@ -41,7 +41,7 @@ class Node {
       while(toRotate.next) {
         toRotate = toRotate.next;
       }
-      toRotate.next = rotatedPart;
+      toRotate.next = linkedList.head;
       return rotatedPart;
     } catch (e) {
       throw e;
