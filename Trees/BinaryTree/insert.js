@@ -4,7 +4,7 @@ class Node {
       this.left = left;
       this.right = right;
     }
-  }
+}
   
   class BinaryTree {
     constructor() {
